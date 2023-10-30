@@ -1,0 +1,16 @@
+{
+  "name": "tic-tac-toe_database",
+  "version": "1.0.0",
+  "description": "Attaching Database with mysql and nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}

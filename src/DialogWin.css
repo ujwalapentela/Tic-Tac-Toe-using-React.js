@@ -1,0 +1,41 @@
+.dialog-box {
+    background-color: rgb(230, 201, 158);
+}
+
+
+
+.dialog-title {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.play-again {
+    color:rgba(31, 28, 28, 0.756);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btns {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#yes-btn {
+  border: 1px rgb(51, 50, 50);
+  background-color: green;
+  color: white;
+  margin-right:20px;
+  width: 70px;
+  height:30px;
+}
+
+#no-btn {
+  border: 1px rgb(51, 50, 50);
+  background-color: rgb(237, 95, 82);
+  color: white ;
+  margin-left:20px;
+  width:70px;
+  height: 30px;
+}

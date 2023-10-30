@@ -1,0 +1,33 @@
+#player2-header {
+    text-align: center;
+}
+
+p{
+    color:rgb(4, 51, 152);
+    font-size: large;
+}
+.player2-status {
+    height:100%;
+}
+
+#player2-status{
+    height:100%;
+    }
+
+table {
+    overflow: hidden;
+    overflow-y: auto;
+    display: block;
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+
+thead{
+    top:0;
+    z-index: 2;
+    position: sticky;
+}
+
+th,td {
+    padding: 10px;
+}

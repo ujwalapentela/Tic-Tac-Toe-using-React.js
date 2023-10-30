@@ -1,0 +1,36 @@
+
+#players-combined-header {
+    text-align: center;
+}
+.players-combined-status{
+    height: 100%;
+}
+
+#players-combined-status{
+    height:100%;
+}
+
+p{
+    color:rgb(4, 51, 152);
+    font-size: large;
+}
+
+table {
+    overflow: hidden;
+    overflow-y: auto;
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+
+th,td {
+    padding: 10px;
+}
+
+th{
+    top:0;
+    z-index: 2;
+    position: sticky;
+}
+
+
+

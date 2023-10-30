@@ -1,0 +1,122 @@
+.center-content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+@keyframes heading {
+    0% {color: rgb(64, 5, 118);}
+    25% {color:rgb(216, 45, 45);}
+    50%{color: rgb(28, 116, 6);}
+    75%{color: rgb(211, 177, 5);}
+    100%{color: rgb(232, 93, 29);}
+}
+
+@keyframes image-border {
+  0%{border: 2px dashed rgb(175,175,236);}
+  100%{border:none}
+}
+
+.game-heading {
+    color: rgb(64, 5, 118);
+    font-size: 60px;
+    margin-top: 5%;
+    animation-name: heading;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+  }
+  
+.play-btn {
+border: 2px solid rgb(137, 137, 232);
+color: rgb(12, 72, 49);
+width: 30%;
+font-size: large;
+border-radius: 50%;
+margin: 10px;
+}
+
+.play-btn:hover {
+    background-color: rgb(184, 237, 219);
+}
+
+.addmember-btn {
+  border: 2px solid rgb(137, 137, 232);
+  color: rgb(12, 72, 49);
+  width: 20%;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+
+.addmember-btn:hover {
+  background-color: rgb(184, 237, 219);
+}
+  
+.players {
+    display: flex;
+    padding-bottom: 30px;
+  } 
+
+  .newplayers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #player1,#player2 {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    align-items: center;
+  }
+
+  #player-image1 {
+    width: 40%;
+    animation-name:image-border;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+
+  #player-name1 {
+    width:40%;
+    height: 30px;
+    border: 1px solid rgb(175, 175, 236) ;
+    border-style:dashed;
+    font-size: medium;
+  }
+
+  #player-name2 {
+    width:40%;
+    height: 30px;
+    border: 1px solid rgb(67,67,75);
+    border-style:dashed;
+    font-size: medium;
+  }
+
+  #player-image2 {
+width:40%;
+animation-name:image-border;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+  }
+
+  #new_player_ask {
+    color:rgb(98, 100, 119);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #new_player_name{
+  border: 2px solid rgb(137, 137, 232);
+    font-size:medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .alert {
+    width:100%;
+    height:100%;
+    font-size: large;
+    color:rgb(1, 7, 19) !important;
+    border:2px solid rgba(85, 76, 76, 0.831);
+    background-color: rgb(236, 228, 229) !important;
+  }

@@ -1,0 +1,95 @@
+
+.exit-content {
+    justify-content: center;
+    align-items: center;
+    height:100% !important;
+}
+
+pre {
+    color:rgb(89, 5, 168);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.exit-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    top:-75%;
+}
+
+.giphy-style {
+    width:150px;
+    border: 2px solid rgb(103, 169, 232);
+}
+
+iframe {
+    text-align: center;
+}
+
+#exit-gif{
+    position: relative;
+    top:-80%;
+    text-align: center;
+    padding-top:30px;
+}
+
+#back-btn {
+ background-color: rgb(208, 236, 237);
+    width: auto;
+    font-size:  medium;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(135, 135, 238);
+    margin-right: 10px;
+}
+
+#back-btn:hover {
+    background-color:aliceblue;
+}
+
+#leaderboard-btn {
+ background-color: rgb(208, 236, 237);
+    width: auto;
+    font-size:  medium;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(135, 135, 238);
+    margin-left: 10px;
+}
+
+#leaderboard-btn:hover {
+    background-color:aliceblue;
+}
+
+#playerdetails1,#players-combined,#playerdetails2 {
+    padding:2px;
+}
+
+#playerdetails1{
+    position:relative;
+    left: 1%;
+    height: 80%;
+    width:30%;
+}
+
+#playerdetails2{
+    position:relative;
+    top:-157%;
+    left:69%;
+    height: 80%;
+    width:30%;
+}
+
+#players-combined{
+    position: relative;
+    height:35%;
+    top:-70%;
+    left:35%;
+    width: 30%;
+}
+
+
+.exit-btn {
+    flex:left;
+}
